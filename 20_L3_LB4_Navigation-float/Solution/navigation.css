@@ -1,0 +1,25 @@
+header nav ul {
+    padding: 0 ; 
+    margin: 0 ; 
+    overflow: hidden ; 
+}
+
+header nav ul li {
+    list-style: none outside ;
+    display: block  ; 
+    float: left ; 
+}
+
+header nav ul li a {
+    display: block ; 
+    padding: 0.5rem 1rem ; 
+    background: none ; 
+    text-decoration: none ; 
+    color: rgb(0, 102, 0) ; 
+}
+
+header nav ul li a:hover {
+	background: rgb(0, 102, 0) ; 
+	color: rgb(255, 255, 255);
+	border-radius: 0.2rem;
+}

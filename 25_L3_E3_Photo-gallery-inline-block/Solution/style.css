@@ -1,0 +1,26 @@
+body {
+    margin: 0 ; 
+    background: rgb(238, 238, 238) ; 
+}
+
+.gallery {
+    width: 100% ; 
+    margin: 0 auto ; 
+    text-align: center ; 
+}
+
+.gallery li {
+	width: 18rem;
+	display: inline-block;
+	background: rgb(255, 255, 255) ;
+	border: 0.4rem solid rgb(0, 0, 0) ;
+	padding: 1rem;
+	vertical-align: middle;
+	margin: 0.5rem;
+}
+
+.gallery li img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
