@@ -1,0 +1,14 @@
+html {
+    font: 16px/1.5 "Helvetica", sans-serif ; 
+}
+
+h2 {
+    font: "Georgia", serif ; 
+    font-weight: 500 ; 
+}
+article {
+    background-color: rgb(51, 102, 153) ; 
+    border-radius: 1rem ; 
+    color: rgb(255, 255, 255) ; 
+    padding: 1.5rem ; 
+}

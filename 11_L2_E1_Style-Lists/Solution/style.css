@@ -1,0 +1,12 @@
+html {
+    font: 16px/1.5 "Helvetica", sans-serif ; 
+}
+
+body {
+    margin: 5rem 4rem 0 4rem ; 
+}
+
+ul li {
+    list-style: square ; 
+}
+
