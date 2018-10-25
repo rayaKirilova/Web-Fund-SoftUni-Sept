@@ -1,0 +1,51 @@
+html {
+    font: 16px/1.5 "Helvetica", sans-serif ; 
+}
+
+body {
+    background-color: rgb(238, 238, 238) ; 
+    margin: 0 ; 
+    display: flex ; 
+    height: 100vh ; 
+    align-items: center ; 
+    justify-content: center ; 
+
+}
+
+.container {
+    max-width: 60rem ; 
+    display: flex ; 
+}
+
+.card, 
+.card media,
+.card media img {
+    border-radius: 0.5rem ; 
+}
+
+.card, 
+.card media {
+    height: 40vh ; 
+}
+
+.card {
+    background: rgb(255, 255, 255);
+	box-shadow: 0 0 2rem 0.5rem rgba(0,0,0,0.2);
+	position: relative;
+	min-width: 6rem;
+	flex: 0 0 auto;
+	overflow: hidden;
+	margin: 0 0.5rem;
+}
+
+.card.active {
+	min-width: 30vw;
+}
+
+.card .media {
+	position: relative;
+	background: #000;
+}
+
+
+

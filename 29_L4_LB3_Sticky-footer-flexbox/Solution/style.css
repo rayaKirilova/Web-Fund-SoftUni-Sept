@@ -1,0 +1,30 @@
+body {
+    margin: 0 ; 
+    background: rgb(238, 238, 238) ; 
+    display: flex ; 
+    flex-direction: column ; 
+    height: 100vh ; 
+}
+
+body > header:first-of-type {
+    border-bottom: 2px solid rgb(0, 0, 0) ; 
+}
+
+header .site-title {
+    min-width: 20wh ; 
+    font-weight: bold ; 
+    font-size: 3rem ; 
+    text-transform: uppercase ; 
+    padding: 1rem 2rem ; 
+}
+
+body > main {
+    padding: 2rem ; 
+}
+
+body > footer:last-of-type {
+    margin-top: auto ; 
+    background-color: rgb(102, 102, 102) ; 
+    color: rgb(255, 255, 255) ; 
+    padding: 1rem 2rem ; 
+}
